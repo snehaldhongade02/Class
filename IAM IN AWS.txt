@@ -1,0 +1,42 @@
+1} ETL in aws
+2}latency :- delay in time
+3}canonical :- alias
+4}service :IAM (Identity access management )global service and free service
+  Resources :4
+  1)Users :- these are simply users, who will use your account to create services and resources.
+                                    How to create user? ----> BY CLICKING OPTION ADD USERS
+                                      THEIR ARE TWO ACCESS TYPES 1}PROGRAMATIC ACCESS AND 2} CONSOLE ACCESS.
+                                      1}CONSOLE ACCESS:- While login console access with the help of username and password provided.
+                                      2}programatic access:- all the access other than console access is called programatic access,in which
+                                        we can login it with the help 'access key' and 'secrete key'.
+  
+  2)Groups:-group of users or bunch of users   \\eg- 10 users s3 permission
+                                                     group(s3 group) -> s3 permission
+      create group--->attach policy -->add user in it
+  3)Roles:-COMMUNICATION between two services and resources
+  4)Polices:-bunch of permission, given to users ,group and roles.
+            policies are of two types 1) AWS managed and 2) coustam managed
+            1) aws managed:- provided by aws.
+            2) coustam managed:- created by user according to their requirment.
+               while creating coustam policy we have two option 1)visual editor and 2)Json editor
+              in visual editor we can create policy by graphically, vhile in json editor we can type policy in json language.
+              aws has provided a tool called policy generator.
+           
+5} if user have permission of Adminstrator access then only it can changes permission , otherwise it can't change permission.
+6} Administrator :- dominating policy
+7} Aws resource from service that can be used to assign permission to any identitiy policy.
+8} total 31 regions(Geological location Datacenters) 
+   each region have minimum 3 availability zones and maximum 6,7  
+9} Availabilty zones-99(server racks)
+10} ARN :- unique identity (for ex :- adhar card no)
+    in AWS each resource have unique ARN(Amazon resource name)
+11}private key :- Authentication  method of the ssh
+12} Roles:- communication between two services
+    Features of roles:
+    1) Better way to provide access
+    2)temporary acess
+    3)less human interaction
+    4)Machine permission
+13}
+14}
+15}
